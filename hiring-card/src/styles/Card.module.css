@@ -1,0 +1,97 @@
+*{
+    font-family: sans-serif, arial, impact;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+    position: relative;
+    width: 600px;
+    height: 60vh;
+    bottom: 100px;
+}
+
+.text h1{
+    color: rgba(238, 151, 64, 0.931);
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.text p{
+    margin: 40px 20px 20px 20px;
+    width: fit-content;
+    font-weight: 500;
+    justify-items: auto;
+    margin-bottom: 40px;
+}
+
+.image img{
+    width: 100px;
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+.button {
+    background-color: rgba(238, 151, 64, 0.931);
+    color: white;
+    width: 300px;
+    height: 80px;
+    margin: 50px 0 80px 0;
+    font-size: 0.8rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px black;
+    font-family: inherit;
+}
+
+.button:hover {
+    cursor: pointer;
+    font-size: 0.9rem;
+    background-color: rgba(241, 134, 28, 0.931);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 580px;
+    height: 20px;
+    background-color: rgb(30, 30, 84);
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    color: white;
+}
+
+
+.communications {
+    display: flex;
+    gap: 45px;
+}
+
+
+.communications button{
+    border: 1px solid rgb(223, 101, 36);
+}
+
+.communications button:hover{
+    background-color: rgba(241, 134, 28, 0.931);
+    border-color: rgb(57, 57, 57);
+}
